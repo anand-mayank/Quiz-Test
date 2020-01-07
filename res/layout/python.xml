@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/python"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:text="Which of the following data types is not supported in python ?" />
+
+    <CheckBox
+        android:id="@+id/checkp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="Slice" />
+
+    <CheckBox
+        android:id="@+id/checkp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+        android:text="Number" />
+
+    <CheckBox
+        android:id="@+id/checkp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="List" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="What is the output of print list[0] if list = [ 'abcd', 786 , 2.23, 'john', 70.2 ] " />
+
+    <CheckBox
+        android:id="@+id/checkp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      
+        android:text=" [ 'abcd', 786 , 2.23, 'john', 70.2 ]" />
+
+    <CheckBox
+        android:id="@+id/checkp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     
+        android:text="Error" />
+
+    <CheckBox
+        android:id="@+id/checkp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="abcd" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Which of the following function convert a String to a set in python?" />
+
+    <CheckBox
+        android:id="@+id/checkp7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="dict(d)" />
+
+    <CheckBox
+        android:id="@+id/checkp8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:text="set(x)" />
+
+    <CheckBox
+        android:id="@+id/checkp9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="chr(x)" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:text="Submit" />
+
+</LinearLayout>
